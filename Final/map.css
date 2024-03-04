@@ -1,0 +1,48 @@
+header {
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 130%;
+}
+
+main {
+  color: white;
+  position: relative;
+  right: -5%;
+  bottom: -20px;
+}
+nav {
+  font-size: 150%;
+  font-family: Arial, sans-serif;
+  color: white;
+  width: 100%;
+  min-width: 300px;
+  height: 50%;
+}
+nav ul {
+  justify-content: space-around;
+  display: flex;
+  list-style-type: none;
+}
+
+/*li {
+  display: inline-block;
+}*/
+footer {
+  font-size: 0.75em;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  justify-content: space-around;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+nav a:visited {
+  color: white;
+}
+nav a:hover {
+  color: rgb(113, 163, 192);
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkblue;
+}
